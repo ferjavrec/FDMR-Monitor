@@ -15,7 +15,7 @@ RUN	echo Get some packages ... && \
   a2dissite default-ssl.conf && \
   echo Get the Dashboard ... && \
 	cd /opt && \
-	git clone https://github.com/CS8ABG/FDMR-Monitor.git && \
+	git clone https://github.com/ferjavrec/FDMR-Monitor.git && \
   echo Install required stuff... && \
 	cd FDMR-Monitor && \
 	pip install --no-cache-dir -r requirements.txt && \
